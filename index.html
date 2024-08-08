@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Drive by NSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="Diary 1 PNG.png" alt="Header Image" class="header-image">
+    </div>
+    <div class="container">
+        <div class="rounded-rectangle">
+            <h1><center>Application Form to Join National Service Scheme & Unnat Bharat Abhiyan at AUR Campus</center></h1>
+        </div>
+            <p>
+                <li>Please fill the form to apply as a volunteer in our organization.</li>
+                <li>Please fill the form to apply as a volunteer in our organization.</li>
+                <li>Please fill the form to apply as a volunteer in our organization.</li>
+                <li>Please fill the form to apply as a volunteer in our organization.</li>
+            </p>
+        <form>
+            <div class="section-divider"></div>
+            <section class="section">
+                <h2> (A) Personal Details</h2>
+                <div class="input-field">
+                    <label for="full-name" class="label">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="input-field">
+                    <label for="contact-number" class="label">Contact Number:</label>
+                    <select id="country-code" name="country-code">
+                        <option value="+91">+91 (India) - National Student</option>
+                        <option value="+93">+93 (Afghanistan)</option>
+                        <option value="+61">+61 (Australia)</option>
+                        <option value="+880">+880 (Bangladesh)</option>
+                        <option value="+975">+975 (Bhutan)</option>
+                        <option value="+55">+55 (Brazil)</option>
+                        <option value="+86">+86 (China)</option>
+                        <option value="+253">+253 (Djibouti)</option>
+                        <option value="+33">+33 (France)</option>
+                        <option value="+49">+49 (Germany)</option>
+                        <option value="+62">+62 (Indonesia)</option>
+                        <option value="+98">+98 (Iran)</option>
+                        <option value="+81">+81 (Japan)</option>
+                        <option value="+60">+60 (Malaysia)</option>
+                        <option value="+960">+960 (Maldives)</option>
+                        <option value="+230">+230 (Mauritius)</option>
+                        <option value="+95">+95 (Myanmar)</option>
+                        <option value="+977">+977 (Nepal)</option>
+                        <option value="+234">+234 (Nigeria)</option>
+                        <option value="+63">+63 (Phillipines)</option>
+                        <option value="+7">+7 (Russia)</option>
+                        <option value="+966">+966 (Saudi Arabia)</option>
+                        <option value="+248">+248 (Seychelles)</option>
+                        <option value="+27">+27 (South Africa)</option>
+                        <option value="+94">+94 (Sri Lanka)</option>
+                        <option value="+992">+992 (Tajikistan)</option>
+                        <option value="+90">+90 (Turkey)</option>
+                        <option value="+971">+971 (United Arab Emirates)</option>
+                        <option value="+44">+44 (United Kingdom)</option>
+                        <option value="+1">+1 (USA)</option>
+                        <option value="+84">+84 (Vietnam)</option>
+                        <option value="+967">+967 (Yemen)</option>
+                        <!-- Add more country codes here -->
+                    </select>
+                    <input type="number" id="contact-number" placeholder="Example: (Chhoose Country Code First) 0123456789" name="contact-number" required>
+                </div>
+                <div class="input-field">
+                    <div id="input-field-radio">
+                    <label for="whatsapp-number" class="label">WhatsApp Number:</label>
+                    <div class="radio-container">
+                        <span>
+                            <input type="radio" id="same-as-contact" name="whatsapp-number" value="same-as-contact">
+                            <label for="same-as-contact">Same as Contact Number</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="other" name="whatsapp-number" value="other">
+                            <label for="other">Other</label>
+                        </span>
+                    </div>
+                    <input type="number" id="whatsapp-number-other" name="whatsapp-number-other" required>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="personal-email" class="label">Personal Email ID:</label>
+                    <input type="email" id="personal-email" placeholder="Example: absakku1@gmail.com" name="personal-email" required>
+                </div>
+                <div class="input-field">
+                    <label for="amity-email" class="label">Amity Email ID:</label>
+                    <input type="email" id="amity-email" placeholder="Example: absakku1@s.amity.edu" name="alternate-email" required>
+                </div>
+                <div class="input-field">
+                    <label for="enrollment-number" class="label">Enrollment Number:</label>
+                    <input type="text" id="enrollment-number" placeholder="Example: A20000000000" name="enrollment-number" required>
+                </div>
+                <div class="input-field">
+                    <label for="course-name" class="label">Course Name:</label>
+                    <input type="text" id="course-name" placeholder="Example: B.Tech (CSE)" name="course-name" required>
+                </div>
+                <div class="input-field">
+                    <label for="institute-name" class="label">Institute/School Name:</label>
+                    <input type="text" id="institute-name" placeholder="Example: ASET (Amity School of Enginnering & Technology)" name="institute-name" required>
+                </div>
+                <div class="input-field">
+                    <label for="gender" class="label">Gender:</label>
+                    <select id="gender"name="gender" required>
+                        <option value="" selected disabled hidden>Please select</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <label for="semester" class="label">Semester:</label>
+                    <select id="semester"name="semester" required>
+                        <option value="" selected disabled hidden>Please select</option>
+                        <option value="1">1st Semester</option>
+                        <option value="2">2nd Semester</option>
+                        <option value="3">3rd Semester</option>
+                        <option value="4">4th Semester</option>
+                        <option value="5">5th Semester</option>
+                        <option value="6">6th Semester</option> 
+                        <option value="7">7th Semester</option>
+                        <option value="7">8th Semester</option>
+                    </select> 
+                </div> 
+            <div class="input-field">
+                <label for="years-left" class="label">Years Left for Graduation:</label>
+                <select id="years-left" name="years-left" required>
+                    <option value="" selected disabled hidden>Please select</option>
+                    <option value="1">1 Year</option>
+                    <option value="2">2 Years</option>
+                    <option value="3">3 Years</option>
+                    <option value="4">4 Years</option>
+                </select>
+            </div>
+            <div class="input-field"> 
+                <label for="programme" class="label">Programme Applying For:</label>
+                <select id="programme" name="programme" required>
+                    <option value="" selected disabled hidden>Please select</option>
+                    <option value="nss">National Service Scheme - AUR</option>
+                    <option value="ub">Unnat Bharat Abhiyan - AUR </option>
+                    <option value="both">Both (National Service Scheme & Unnat Bharat Abhiyan, AUR)</option>
+                </select>
+            </div>
+        </section>
+        <div class="section-divider"></div>
+        <section class="section">
+            <h2>(B) Questionnaires</h2>
+            <div class="input-field">
+                <label for="motivation" class="label">What is your motivation to join NSS or UBA Programme at AUR Campus?</label>
+                <textarea id="motivation" name="motivation" required></textarea>
+            </div>
+            <div class="input-field">
+                <label for="clubs" class="label">How many clubs or activities are you involved in? Name them. (Also list the clubs you're planning to join in near future)</label>
+                <textarea id="clubs" name="clubs" required></textarea>
+            </div>
+            <div class="input-field">
+                <label for="see" class="label">Where do you see yourself in next 2 years?</label>
+                <textarea id="see" name="see" required></textarea>
+            </div>
+            <div class="input-field">
+                <label for="experience" class="label">What is your experience in leading a team or project? Briefly share your experience.</label>
+                <textarea id="experience" name="experience" required></textarea>
+            </div>
+            <div class="input-field">
+                <label for="strengths-weaknesses" class="label">What are your strengths and weaknesses?</label>
+                <textarea id="strengths-weaknesses" name="strengths-weaknesses" required></textarea>
+            </div>
+            <div class="input-field">
+                <label for="skills" class="label">Select all the below mentioned skills that apply!</label>
+                <div id="skills">
+                    <div>
+                        <input type="checkbox" id="communication" name="skills" value="communication">
+                        <label for="communication">Communication</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="management" name="skills" value="management">
+                        <label for="management">Management</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="creative-writing" name="skills" value="creative-writing">
+                        <label for="creative-writing">Creative Writing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="social-media" name="skills" value="social-media">
+                        <label for="social-media">Social Media Management</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="editing" name="skills" value="editing">
+                        <label for="editing">Editing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="development" name="skills" value="development">
+                        <label for="development">Web/App Development</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="task-allocation" name="skills" value="task-allocation">
+                        <label for="task-allocation">Task Allocation Skills</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="content-creation" name="skills" value="content-creation">
+                        <label for="content-creation">Content Creation</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="event-planning" name="skills" value="event-planning">
+                        <label for="event-planning">Event Planning</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="marketing" name="skills" value="marketing">
+                        <label for="marketing">Marketing & Promotion</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="financial-management" name="skills" value="financial-management">
+                        <label for="financial-management">Financial Management</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="public-service" name="skills" value="public-service">
+                        <label for="public-service">Public Service</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="teamwork" name="skills" value="teamwork">
+                        <label for="teamwork">Teamwork</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="problem-solving" name="skills" value="problem-solving">
+                        <label for="problem-solving">Problem Solving</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="time-management" name="skills" value="time-management">
+                        <label for="time-management">Time Management</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="adaptability" name="skills" value="adaptability">
+                        <label for="adaptability">Adaptability</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="negotiation" name="skills" value="negotiation">
+                        <label for="negotiation">Negotiation</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cultural" name="skills" value="cultural">
+                        <label for="cultural">Cultural Skills</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="critical-thinking" name="skills" value="critical-thinking">
+                        <label for="critical-thinking">Critical Thinking</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="player" name="skills" value="player">
+                        <label for="player">Sports Player</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="learner" name="skills" value="learner">
+                        <label for="learner">Quick Learner</label>
+                    </div> 
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="terms-conditions" class="label">Do you agree to the terms and conditions of the organization?</label>
+                <div class="checkbox-grid">
+                <div>
+                    <input type="checkbox" id="terms-conditions" name="terms-conditions" required value="terms-conditions">
+                    <label for="terms-conditions">Yes, I agree to the terms & conditions</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms-conditions" name="terms-conditions" required value="terms-conditions">
+                    <label for="terms-conditions">No, I don't agree to the terms & conditions</label>
+                </div>
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="referral-code" class="label">Referral Code:</label>
+                <input type="text" id="referral-code" name="referral-code" placeholder="Example: AB001">
+            </div>
+        </section>
+            <div class="input-field">
+                <button type="submit" class="button">Apply</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+        <div class="container-left">
+            <div class="footer-left">
+                <img src="Headerbb.jpg" alt="Left Image">
+            </div>
+        </div>
+        <div class="container-center">
+              <div class="footer-center">
+                  <div class="social-links">
+            <a href="https://www.facebook.com/people/NSS-Amity-University-Rajasthan/100087056913677/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nss.aur" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/nss-amity-university-rajasthan-aur" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/AmityNss" target="_blank"><i class="fab fa-x"></i></a>
+            <a href="https://www.amity.edu/jaipur/nss-aur/index.html" target="_blank"><i class="fas fa-home"></i></a>
+          </div>
+          <div class="address">
+            <p>Address: SP-1, Kant Kalwar, RIICO Industrial Area, NH-11C</p>
+            <p>Jaipur, Rajasthan 303002, IN</p>
+          </div>
+          <div class="copyright">
+            <p>&copy; 2024 NSS & UBA Cell-AUR - All rights reserved.</p>
+          </div>
+          <div class="contact-email">
+            <p>Contact us at <a href="mailto:nss.aur.official@gmail.com">nss.aur.official@gmail.com</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="container-right">
+        <div class="footer-right">
+            <img src="Headerbb.jpg" alt="Right Image">
+        </div>
+    </div>
+    </div>
+    </footer>
+</body>
+</html>
